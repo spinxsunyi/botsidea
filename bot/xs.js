@@ -2,7 +2,7 @@
 const Extra = require('telegraf/extra')
 const Markup = require('telegraf/markup')
 
-const bot = new Telegraf('568826477:AAEubq_J8EKl4in5vW1YNDlrvZfULYMtiWM')
+const bot = new Telegraf('xxx')
 
 bot.use(Telegraf.log())
 
