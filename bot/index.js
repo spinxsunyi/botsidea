@@ -2,8 +2,8 @@ const Telegraf = require('telegraf');
 const Extra = require('telegraf/extra');
 const Markup = require('telegraf/markup');
 
-//const app = new Telegraf('568826477:AAEubq_J8EKl4in5vW1YNDlrvZfULYMtiWM');
-const app = new Telegraf('521458898:AAHa72gg-sC-PX_bUAMCtsQAx82A5g1FJbA');
+
+const app = new Telegraf('aaaaa');
 
 app.start((ctx) => {
   console.log('started:', ctx.from.first_name);
